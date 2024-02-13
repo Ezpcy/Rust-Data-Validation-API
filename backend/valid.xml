@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <defaultSettings language="en"/>
+    <validationRules>
+        <person>
+            <name type="string" min="1" max="255" />
+            <age type="integer" minValue="12" maxValue="120" />
+            <email type="email" />
+            <pensum type="integer" minValue="10" maxValue="100" default="100"/>
+        </person>
+    </validationRules>
+</config>
